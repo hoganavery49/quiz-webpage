@@ -3,13 +3,33 @@
 <html>
 	<head>
 		<title>Music Quiz</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="music-script.js"></script>
 		<link rel="stylesheet" type="text/css" href="music-style.css">
 	</head>
 	<body>
 		<h1>Music Quiz</h1>
-		<img src="metallica-bassist.jpg" alt="Metallica's Bassist">
-		<img src="kill-em-all.jpeg" alt="Kill 'em All album cover">
-		<img src="heaven-and-hell.jpg" alt="Heaven and Hell album cover">
-		<img src="alestorm.jpg" alt="Alestorm">
+		<div id="extraControls" class="hidden">
+			<img id="img0" src="metallica-bassist.jpg" alt="Metallica's Bassist">
+			<p id="q0">Who was Metallica's original bassist?</p>
+			<p id="a0">Cliff Burton</p>
+
+			<img id="img1" src="kill-em-all.jpeg" alt="Kill 'em All album cover">
+			<p id="q1">Who wrote "The Four Horsemen" on Metallica's Kill 'em All?</p>
+			<p id="a1">Dave Mustaine</p>
+
+			<img id="img2" src="heaven-and-hell.jpg" alt="Heaven and Hell album cover">
+			<p id="q2">Who was the vocalist of Black Sabbath's album "Heaven and Hell"?</p>
+			<p id="a2">Ronny James Dio</p>
+
+			<img id="img3" src="alestorm.jpg" alt="Alestorm">
+			<p id="q3">Where is the pirate metal band "Alestorm" from?</p>
+			<p id="a3">Scotland</p>
+
+			<button id="next" type="button">Next Question</button>
+
+			<p id="endMessage">You finished the quiz!</p>
+			<button id="restart" type="button">Restart Quiz</button>
+		</div>
 	</body>
 </html>

@@ -1,7 +1,30 @@
 body {
 	text-align: center;
+	background-color: #5a73cd;
 }
 
 img {
 	height: 300px;
+}
+
+.hidden {
+	display: none;
+}
+
+h1 {
+	font-family: Arial Black;
+}
+
+p {
+	font-family: Arial;
+	font-size: 125%;
+}
+
+button {
+	background-color: #FFFFFF;
+    border: none;
+    color: black;
+	padding: 10px 15px;
+    text-align: center;
+	border-radius: 5px;
 }
